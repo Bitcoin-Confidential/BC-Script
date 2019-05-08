@@ -16,6 +16,9 @@ echo 'daemon=1' > ~/.bitcoinc/bitcoinc.conf
 # Start Wallet
 ./bitcoincd && sleep 5
 
+# Create a wallet from mnemonic.  (required for 1.0.1+ wallets.)
+./bitcoinc-cli extkeyimportmaster "$(./bitcoinc-cli mnemonic new | grep mnemonic | sed -e 's/.*: "//' -e 's/",//')"
+
 echo 'Use this stake address on your local node to start staking.'
 ./bitcoinc-cli getnewstakeaddress
 echo 'Enabling staking.'
