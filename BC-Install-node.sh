@@ -5,8 +5,8 @@ wget "https://github.com/Bitcoin-Confidential/BitcoinC-Core/releases/download/v1
 
 # Extract the files and give executable permissions
 echo 'Copying files to home directory'
-cp bitcoinc-1.0.0.0/bin/bitcoincd ~/ 
-cp bitcoinc-1.0.0.0/bin/bitcoinc-cli ~/
+cp bitcoinc-1.0.0/bin/bitcoincd ~/ 
+cp bitcoinc-1.0.0/bin/bitcoinc-cli ~/
 chmod a+x ~/bitcoincd ~/bitcoinc-cli
 
 # Create wallet directory and set to run when windows is closed.
@@ -26,8 +26,8 @@ echo 'Enabling staking.'
 
 # Create a shortcut on system - Unhash if desired
 #echo 'Creating symbol link'
-#ln -sf ~/bitcoinc-1.0.0.0/bin/bitcoincd /usr/bin/bitcoincd
-#ln -sf ~/bitcoinc-1.0.0.0/bin/bitcoinc-cli /usr/bin/bitcoinc-cli
+#ln -sf ~/bitcoinc-1.0.0/bin/bitcoincd /usr/bin/bitcoincd
+#ln -sf ~/bitcoinc-1.0.0/bin/bitcoinc-cli /usr/bin/bitcoinc-cli
 
 echo 'Installation finished.'
 echo 'To stop wallet ./bitcoinc-cli stop'
