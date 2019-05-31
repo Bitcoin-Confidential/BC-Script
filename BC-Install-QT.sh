@@ -21,7 +21,7 @@ wget -q --show-progress $WALLET_URL -O $TEMP_FILE_PATH
 # Extract the files
 echo -e "${GREEN}Extracting the files"
 tar xzf $TEMP_FILE_PATH -C /tmp/
-mv $TEMP_PATH $HOME/$USER_FOLDER_NAME
+rsync -a $TEMP_PATH/ $HOME/$USER_FOLDER_NAME/
 
 # Downloading bitcoin confidential icon
 echo -e "${GREEN}Downloading ${ORANGEBOLD}Bitcoin Confidential ${GREEN}Icon PNG"
