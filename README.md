@@ -8,7 +8,7 @@ curl -sSL https://raw.githubusercontent.com/Bitcoin-Confidential/BC-Script/maste
 ## For QT linux install  
 curl -sSL https://raw.githubusercontent.com/Bitcoin-Confidential/BC-Script/master/BC-Install-QT.sh | bash
 
-## To manually enabling staking.
+## To manually enable staking.
 ./bitcoinc-cli walletsettings stakingstatus true
 
 ## To manually create a wallet.
