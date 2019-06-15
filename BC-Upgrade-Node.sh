@@ -16,4 +16,4 @@ chmod a+x ~/bitcoincd ~/bitcoinc-cli
 
 echo 'Installation finished.'
 echo 'To stop wallet ./bitcoinc-cli stop'
-echo 'To start ./bitcoincd 
+echo 'To start ./bitcoincd'
