@@ -7,11 +7,11 @@ NC='\033[0m' # No Color
 
 # Contants
 TEMP_FILE_PATH=/tmp/bitcoinc.tar.gz
-TEMP_PATH=/tmp/bitcoinc-1.0.2
+TEMP_PATH=/tmp/bitcoinc-1.0.3
 USER_FOLDER_NAME=Bitcoin-Confidential
 DESKTOP_FILENAME=bitcoin-confidential.desktop
 ICON_FILENAME=bitcoinc.png
-WALLET_URL="https://github.com/Bitcoin-Confidential/BitcoinC-Core/releases/download/v1.0.2/bitcoinc-1.0.2-x86_64-linux-gnu.tar.gz"
+WALLET_URL="https://github.com/Bitcoin-Confidential/BitcoinC-Core/releases/download/v1.0.3/bitcoinc-1.0.3-x86_64-linux-gnu.tar.gz"
 ICON_URL="https://gist.githubusercontent.com/deyvisonrocha/41b87f0718dbe33a6629d06234ea9865/raw/5db4d783b6883dc21420d239805e2bc377f4e0b1/bitcoin-confidential-icon.png"
 
 # Downloading the wallet
